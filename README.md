@@ -1,8 +1,8 @@
 # 🚧 WORK IN PROGRESS
 
-# ∞ Vue Infinite Slider Bar
+# ∞ Vue Infinite Slide Bar
 
-🎚 Infinite slider bar component.
+🎚 Infinite slide bar component.
 
 # 🤝 Contributing
 1. Fork this repository.
