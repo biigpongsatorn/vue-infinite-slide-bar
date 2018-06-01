@@ -1,14 +1,28 @@
 <template>
-  <div class="overview--container">
-    <div class="overview--slide">
-      <div class="coin-overview--container">
-        <div class="coin-overview--li-box" v-for="i in 5" :key="i">
-          <img class="coin-overview--coin-img" src="https://s2.coinmarketcap.com/static/img/coins/32x32/1.png">
-          <div class="coin-overview--coin-box">
-            <div class="coin-overview--coin-name">
+  <div class="container">
+    <div class="slide">
+      <div class="list--container">
+        <div class="list--li-box" v-for="i in 5" :key="i">
+          <img class="list--coin-img" src="https://s2.coinmarketcap.com/static/img/coins/32x32/1.png">
+          <div class="list--coin-box">
+            <div class="list--coin-name">
               Bitcoin (BTC)
             </div>
-            <div class="coin-overview--coin-detail">
+            <div class="list--coin-detail">
+              $16,815.10 
+              <span class="has-text-success">(11.68%)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list--container">
+        <div class="list--li-box" v-for="i in 5" :key="i">
+          <img class="list--coin-img" src="https://s2.coinmarketcap.com/static/img/coins/32x32/1.png">
+          <div class="list--coin-box">
+            <div class="list--coin-name">
+              Bitcoin (BTC)
+            </div>
+            <div class="list--coin-detail">
               $16,815.10 
               <span class="has-text-success">(11.68%)</span>
             </div>
@@ -26,30 +40,30 @@ export default {
 </script>
 
 <style scoped>
-.coin-overview--container {
+.list--container {
   float: left;
   width: 50%;
   display: flex;
   justify-content: space-between;
 }
-.coin-overview--li-box {
+.list--li-box {
   float: left;
   padding: 0 20px;
 }
-.coin-overview--coin-img {
+.list--coin-img {
   float: left;
   margin-top: 5px;
   width: 32px;
   height: 32px;
 }
-.coin-overview--coin-box {
+.list--coin-box {
   float: left;
   padding-left: 10px;
 }
-.coin-overview--coin-name {
+.list--coin-name {
   font-weight: bold;
 }
-.coin-overview--coin-detail {
+.list--coin-detail {
   font-size: 11px;
 }
 
@@ -58,7 +72,7 @@ export default {
     transform: translateX(-50%);  
   }
 }
-.overview--container {
+.container {
   transform: translate3d(0, 0, 0); /* Hey browser, use your GPU */
   height: 60px;
   background-color: #ffffff;
@@ -68,7 +82,7 @@ export default {
   padding: 10px;
   overflow: hidden;
 }
-.overview--slide {
+.slide {
   transform: translate3d(0, 0, 0); /* Hey browser, use your GPU */
   height: 50px;
   width: 200%;
