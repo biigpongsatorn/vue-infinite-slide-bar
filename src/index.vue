@@ -21,7 +21,7 @@ export default {
 .list--container {
   float: left;
   width: 50%;
-  height: 100%;
+  height: 60px; /* Can custom */
 }
 
 @keyframes moveSlideshow {
@@ -30,19 +30,16 @@ export default {
   }
 }
 .container {
-  transform: translate3d(0, 0, 0); /* Hey browser, use your GPU */
-  height: 60px;
+  transform: translate3d(0, 0, 0); /* Hey browser, please use my GPU */
+  height: 60px; /* Can custom */
   background-color: #ffffff;
-  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.06);
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.06); /* Can custom */
   position: relative;
   overflow: hidden;
 }
 .slide {
-  transform: translate3d(0, 0, 0); /* Hey browser, use your GPU */
+  transform: translate3d(0, 0, 0); /* Hey browser, please use my GPU */
   width: 200%;
-  position: absolute;
-  top: 10px;
-  left: 0;
-  animation: moveSlideshow 12s linear infinite !important;
+  animation: moveSlideshow 12s linear infinite !important; /* Can custom */
 }
 </style>
