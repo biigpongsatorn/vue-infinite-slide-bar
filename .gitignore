@@ -4,6 +4,8 @@ dist/
 lib/
 npm-debug.log
 yarn-error.log
+.npmignore
+.editorconfig
 
 # Editor directories and files
 .idea
