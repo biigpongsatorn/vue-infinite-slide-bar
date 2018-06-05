@@ -1,15 +1,8 @@
-<template>
-  <div class="container" :style="barStyle">
-    <div v-for="i in 2" :key="i" class="slide-container">
-      <slot></slot>
-    </div>
-  </div>
-</template>
-
 <script>
 export default {
   name: 'vue-infinite-slide-bar',
   props: {
+    barStyle: Object,
     duration: {
       type: String,
       default: '12s'
@@ -21,31 +14,26 @@ export default {
     delay: {
       type: String,
       default: '0s'
-    },
-    style: {
-      type: Object,
-      default: { padding: '5px 0' }
     }
   },
   computed: {
-    barStyle () {
+    customStyle () {
       return {
-        ...this.style,
+        ...this.barStyle,
         'animation-duration': this.duration,
         'animation-direction': this.direction,
         'animation-delay': this.delay
       }
     }
+  },
+  render (createElement) {
+    const bar = createElement('div', { class: 'bar' }, this.$slots.default)
+    return createElement('div', { class: ['container'], style: this.customStyle }, [bar, bar])
   }
 }
 </script>
 
 <style scoped>
-.slide-container {
-  float: left;
-  width: 50%;
-}
-
 @keyframes moveSlideshow {
   100% {
     transform: translateX(-50%);
@@ -59,5 +47,9 @@ export default {
   animation-name: moveSlideshow;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+}
+.bar {
+  float: left;
+  width: 50%;
 }
 </style>

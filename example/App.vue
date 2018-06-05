@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <infinite-slide-bar :style="{ color: '#fff', background: '#42b883', 'font-weight': 'bold' }">
+    <infinite-slide-bar :barStyle="{ color: '#fff', background: '#42b883', padding: '5px 0' }">
       Helo World, I love Vue Infinite Slide Bar
     </infinite-slide-bar>
   </div>

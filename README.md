@@ -7,7 +7,7 @@
 
 # ∞ Vue Infinite Slide Bar
 
-🎚 Infinite slide bar component. (Lightweight 2KB)
+🎚 Infinite slide bar component.
 
 # 👀 Document & Demo Page
 
@@ -16,7 +16,7 @@ Coming soon...
 # 💻 Install
 
 ```sh
-npm install vue-infinite-slide-bar --save
+npm install --save vue-infinite-slide-bar
 ```
 or
 ```sh
@@ -25,7 +25,6 @@ yarn add vue-infinite-slide-bar
 
 # 🕹 Usage
 ```javascript
-// main.js
 import Vue from 'vue'
 import InfiniteSlideBar from 'vue-infinite-slide-bar'
 
@@ -33,7 +32,6 @@ Vue.component('InfiniteSlideBar', InfiniteSlideBar)
 ```
 or
 ```javascript
-// xxx.vue
 import InfiniteSlideBar from 'vue-infinite-slide-bar'
 
 export default {
@@ -46,15 +44,15 @@ export default {
 # 🔎 Example
 
 ```html
-<infinite-slide-bar :style="{ color: '#fff', background: '#42b883', 'font-weight': 'bold' }">
-  Helo World, I love Vue.js
+<infinite-slide-bar :barStyle="{ color: '#fff', background: '#42b883', padding: '5px 0' }">
+  Helo World, I love Vue Infinite Slide Bar
 </infinite-slide-bar>
 ```
 
 # ⚙️ Props
 | Props       | Type          | Default  | Description  |
 | ----------- |:--------------| ---------|--------------|
-| style       | Object        | { padding: '5px 0' }     | Customize style of slide bar |
+| barStyle       | Object        | -     | Customize style of slide bar |
 | duration      | String        | 12s     | Speed of animation |
 | direction      | String        | normal     | Direction of animation (`normal`, `reverse`) |
 | delay      | String        | 0s     | Delay time before animation start |
