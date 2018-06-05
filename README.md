@@ -45,8 +45,6 @@ export default {
 
 # 🔎 Example
 
-<img src="https://raw.githubusercontent.com/biigpongsatorn/vue-infinite-slide-bar/HEAD/static/example/ex1.png"/>
-
 ```html
 <infinite-slide-bar :style="{ color: '#fff', background: '#42b883', 'font-weight': 'bold' }">
   Helo World, I love Vue.js
