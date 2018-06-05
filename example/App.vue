@@ -1,15 +1,7 @@
 <template>
   <div id="app">
-    <infinite-slide-bar>
-      <span>
-        Helo World, I love Vue Infinite Slide Bar
-      </span>
-    </infinite-slide-bar>
-    <br>
-    <infinite-slide-bar>
-      <span>
-        The following example uses the value "alternate-reverse" to make the animation run backwards first, then forwards
-      </span>
+    <infinite-slide-bar :style="{ color: '#fff', background: '#42b883', 'font-weight': 'bold' }">
+      Helo World, I love Vue Infinite Slide Bar
     </infinite-slide-bar>
   </div>
 </template>
