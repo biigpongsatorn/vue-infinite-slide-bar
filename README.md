@@ -1,5 +1,3 @@
-# 🚧 WORK IN PROGRESS
-
 # ∞ Vue Infinite Slide Bar
 
 🎚 Infinite slide bar component.
