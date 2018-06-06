@@ -44,8 +44,8 @@ export default {
 # 🔎 Example
 
 ```html
-<infinite-slide-bar :barStyle="{ color: '#fff', background: '#42b883', padding: '5px 0' }">
-  Helo World, I love Vue Infinite Slide Bar
+<infinite-slide-bar :barStyle="{ background: '#42b883', padding: '5px 0' }">
+  <span style="color: #fff;">Helo World, I love Vue Infinite Slide Bar</span>
 </infinite-slide-bar>
 ```
 
