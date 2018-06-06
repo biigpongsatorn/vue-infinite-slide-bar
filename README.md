@@ -11,7 +11,7 @@
 
 # 👀 Document & Demo Page
 
-Coming soon...
+[LIVE DEMO](https://biigpongsatorn.github.io/#/vue-infinite-slide-bar)
 
 # 💻 Install
 
