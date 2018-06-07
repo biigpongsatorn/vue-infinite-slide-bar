@@ -9,8 +9,7 @@
 
 🎚 Infinite slide bar component.
 
-<img src="https://raw.githubusercontent.com/biigpongsatorn/vue-infinite-slide-bar/static/ex1.gif"/>
-
+<img src="https://raw.githubusercontent.com/biigpongsatorn/vue-infinite-slide-bar/master/static/ex1.gif"/>
 # 👀 Document & Demo Page
 
 [LIVE DEMO](https://biigpongsatorn.github.io/#/vue-infinite-slide-bar)
