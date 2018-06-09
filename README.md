@@ -1,6 +1,5 @@
 <p>
 <a href="https://npmjs.com/package/vue-infinite-slide-bar"><img src="https://img.shields.io/npm/v/vue-infinite-slide-bar.svg?style=flat" alt="NPM version"></a>
-<a href="https://npmjs.com/package/vue-infinite-slide-bar"><img src="https://img.shields.io/npm/dm/vue-infinite-slide-bar.svg?style=flat" alt="NPM downloads"></a>
 <a href="https://www.npmjs.com/package/vue-infinite-slide-bar"><img src="https://img.shields.io/npm/l/vue-infinite-slide-bar.svg?style=flat" alt="License"></a>
 <a href="https://biigpongsatorn.github.io/#/vue-infinite-slide-bar"><img src="https://travis-ci.org/biigpongsatorn/biigpongsatorn.github.io.svg?branch=dev" alt="Demo Build Status"></a>
 </p>
