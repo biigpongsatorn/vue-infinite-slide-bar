@@ -7,7 +7,7 @@
 
 # ∞ Vue Infinite Slide Bar
 
-🎚 Infinite slide bar component.
+🎚 Infinite slide bar component (no dependencies and light weight 1.48 KB)
 
 <img src="https://raw.githubusercontent.com/biigpongsatorn/vue-infinite-slide-bar/master/static/ex1.gif"/>
 

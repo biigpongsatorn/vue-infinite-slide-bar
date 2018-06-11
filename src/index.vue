@@ -27,8 +27,8 @@ export default {
     }
   },
   render (createElement) {
-    const bar = createElement('div', { class: 'vue-infinite-slide-bar--bar' }, this.$slots.default)
-    return createElement('div', { class: ['vue-infinite-slide-bar--container'], style: this.customStyle }, [bar, bar])
+    const bar = createElement('div', { class: 'vifnslb-bar' }, this.$slots.default)
+    return createElement('div', { class: ['vifnslb-container'], style: this.customStyle }, [bar, bar])
   }
 }
 </script>
@@ -39,7 +39,7 @@ export default {
     transform: translateX(-50%);
   }
 }
-.vue-infinite-slide-bar--container {
+.vifnslb-container {
   transform: translate3d(0, 0, 0); /* Hey browser, please use my GPU */
   position: relative;
   overflow: hidden;
@@ -48,7 +48,7 @@ export default {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
-.vue-infinite-slide-bar--bar {
+.vifnslb-bar {
   float: left;
   width: 50%;
 }

@@ -1,7 +1,7 @@
 {
   "name": "vue-infinite-slide-bar",
   "description": "Infinite slide bar component.",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "biig_pongsatorn <biig_pongsatorn@hotmail.com>",
   "license": "MIT",
   "main": "lib/vue-infinite-slide-bar.min.js",
