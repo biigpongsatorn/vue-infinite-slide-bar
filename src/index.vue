@@ -47,9 +47,9 @@ export default {
   animation-name: moveSlideshow;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  display: flex;
 }
 .vifnslb-bar {
-  float: left;
-  width: 50%;
+  display: flex;
 }
 </style>
