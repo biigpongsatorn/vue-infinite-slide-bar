@@ -43,13 +43,14 @@ export default {
   transform: translate3d(0, 0, 0); /* Hey browser, please use my GPU */
   position: relative;
   overflow: hidden;
-  width: 200%;
   animation-name: moveSlideshow;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  display: flex;
+  width: max-content;
+  min-width: 200%;
 }
 .vifnslb-bar {
-  float: left;
   width: 50%;
 }
 </style>
