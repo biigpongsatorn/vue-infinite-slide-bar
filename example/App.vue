@@ -11,6 +11,13 @@
       <img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png">
       <img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png">
       <img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png">
+      <img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png">
+      <img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png">
+      <img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png">
+      <img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png">
+      <img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png">
+      <img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png">
+      <img src="http://icons.iconarchive.com/icons/graphicloads/100-flat/256/home-icon.png">
     </infinite-slide-bar>
   </div>
 </template>

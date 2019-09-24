@@ -28,7 +28,8 @@ export default {
   },
   render (createElement) {
     const bar = createElement('div', { class: 'vifnslb-bar' }, this.$slots.default)
-    return createElement('div', { class: ['vifnslb-container'], style: this.customStyle }, [bar, bar])
+    const slider = createElement('div', { class: ['vifnslb-element'], style: this.customStyle }, [bar, bar])
+    return createElement('div', { class: ['vifnslb-container'] }, [slider])
   }
 }
 </script>
@@ -40,6 +41,10 @@ export default {
   }
 }
 .vifnslb-container {
+  width: 100%;
+  overflow: hidden;
+}
+.vifnslb-element {
   transform: translate3d(0, 0, 0); /* Hey browser, please use my GPU */
   position: relative;
   overflow: hidden;
