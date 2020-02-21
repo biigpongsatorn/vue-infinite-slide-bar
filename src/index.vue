@@ -15,10 +15,6 @@ export default {
       type: String,
       default: '0s'
     },
-        delay: {
-      type: String,
-      default: '0s'
-    },
     paused : {
       type: Boolean,
       default: false
@@ -31,7 +27,7 @@ export default {
         'animation-duration': this.duration,
         'animation-direction': this.direction,
         'animation-delay': this.delay,
-        'animation-play-state' : (this.paused) ? "paused" : "running"
+        'animation-play-state' : (this.paused) ? 'paused' : 'running'
       }
     }
   },
