@@ -60,6 +60,7 @@ export default {
 | duration      | String        | 12s     | Speed of animation |
 | direction      | String        | normal     | Direction of animation (`normal`, `reverse`) |
 | delay      | String        | 0s     | Delay time before animation start |
+| paused 	   | Boolean 	     |false 	|Specifies whether the animation is paused or running|
 
 # 🤝 Contributing
 1. Fork this repository.
