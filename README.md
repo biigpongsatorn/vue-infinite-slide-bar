@@ -1,4 +1,4 @@
-<a href="https://www.buymeacoffee.com/biigpongsatorn" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+# ⛔️ DEPRECATED <no-maintenance-intended> This repo has not been maintained
 
 <p>
 <a href="https://npmjs.com/package/vue-infinite-slide-bar"><img src="https://img.shields.io/npm/v/vue-infinite-slide-bar.svg?style=flat" alt="NPM version"></a>
